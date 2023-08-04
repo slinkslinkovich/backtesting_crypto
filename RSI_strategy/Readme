@@ -1,3 +1,7 @@
+
+# RSI
+
+A brief description of what this project does and who it's for
 Hi everyone, we are backtesting various indicators and strategies on the crypto market. In this post we are going to talk about RSI.
 Most likely, everyone is already familiar with this indicator. A lot of articles and different algorithms have been written about this indicator. I propose to analyze the work and logic of the indicator itself.
 Relative Strength Index (RSI) is a technical analysis tool, an indicator that measures the speed and magnitude of price movements of an asset.
