@@ -17,3 +17,4 @@ Of course, there are advantages and disadvantages to using RSI. There are people
 In the following files you will see the results of our backtests.
 We use one rule for all strategies - you are allowed to hold only one trade, without adding margin to the position.
 This rule is called - One.
+All tests were carried out with a transaction amount of 100$, without leverage. This is done for the convenience of your calculations, as 100$ = 100%.  
