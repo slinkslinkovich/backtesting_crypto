@@ -15,3 +15,5 @@ RSI has gained popularity for its simple calculations and clear interpretation o
 
 Of course, there are advantages and disadvantages to using RSI. There are people who use it in trading, and there are those who do not know how to use it. We have decided for ourselves that this indicator suits our trading style and we actively use it. In the next post we will present you our first strategy, which continues to be used in our trading.
 In the following files you will see the results of our backtests.
+We use one rule for all strategies - you are allowed to hold only one trade, without adding margin to the position.
+This rule is called - One.
