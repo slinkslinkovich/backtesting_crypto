@@ -54,11 +54,11 @@ All calculations are made with a margin in the deal of 100 dollars without using
 
 ### H4 Timeframe
 
-The highest timeframe, H4, showed favorable results with standard RSI settings. By using the RSI thresholds of <span style="background-color: #00FF00; padding: 2px 5px; border-radius: 3px;">RSI 20/80</span>, we achieved the highest profit among all timeframes. This setting proved to be optimal for capturing significant price movements within this timeframe. It is this set-up that generates consistent profits for us. Check out the detailed [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv).
+The highest timeframe, H4, showed favorable results with standard RSI settings. By using the RSI thresholds of <span style="background-color: #00FF00; padding: 2px 5px; border-radius: 3px;">RSI 20/80</span>, we achieved the highest profit among all timeframes. This setting proved to be optimal for capturing significant price movements within this timeframe. Check out the detailed [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv).
 
 ### H1 Timeframe
 
-Meticulous analysis on the H1 timeframe revealed that the optimal RSI settings of <span style="background-color: #00FF00; padding: 2px 5px; border-radius: 3px;">RSI 13/87</span> significantly outperformed other configurations. This specific setup maximized the winrate, making it a promising choice for traders operating within this timeframe. Explore the [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023.csv).
+Meticulous analysis on the H1 timeframe revealed that the optimal RSI settings of <span style="background-color: #00FF00; padding: 2px 5px; border-radius: 3px;">RSI 13/87</span> significantly outperformed other configurations. This specific setup maximized the winrate, making it a promising choice. Explore the [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023.csv).
 
 ### M15 Timeframe
 
