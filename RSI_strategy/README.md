@@ -1,24 +1,87 @@
+# RSI Trading Strategy and Backtest Results
 
-# RSI
+Welcome to the Readme for the Relative Strength Index (RSI) trading strategy and the obtained results. In this document, we'll delve into the RSI strategy and its performance analysis based on backtests carried out on different timeframes using historical data of the BTCUSDT trading pair. The strategy's implementation can be found in the provided [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py) script.
 
-A brief description of what this project does and who it's for
-Hi everyone, we are backtesting various indicators and strategies on the crypto market. In this post we are going to talk about RSI.
-Most likely, everyone is already familiar with this indicator. A lot of articles and different algorithms have been written about this indicator. I propose to analyze the work and logic of the indicator itself.
-Relative Strength Index (RSI) is a technical analysis tool, an indicator that measures the speed and magnitude of price movements of an asset.
-The main task of RSI is to analyze the strength of the price impulse and help in determining the overbought or oversold level of the asset.
-RSI is depicted on the chart as an oscillator with a value from 0 to 100. The generally accepted overbought level of an asset is the zone above the value of 70, and oversold - below 30.
-The RSI indicator "weighs the forces" of growth and fall of the asset price. The following formula is used to calculate RSI values:
-RSI = 100 - 100 / (1+RS)
-RS is the average exponential of the price when the asset rose over the time period in question, divided by the average exponential of the price when the asset fell over the time period in question.
-RSI has gained popularity for its simple calculations and clear interpretation of data. It has become a popular tool for technical analysis of long-term price movements of cryptocurrencies: the higher the price averaging period, the fewer false signals the indicator shows.
-Of course, there are advantages and disadvantages to using RSI. There are people who use it in trading, and there are those who do not know how to use it. We have decided for ourselves that this indicator suits our trading style and we actively use it. In the next post we will present you our first strategy, which continues to be used in our trading. In the following files you will see the results of our backtests. We use one rule for all strategies - you are allowed to hold only one trade, without adding margin to the position. This rule is called - One. 
+## Table of Contents
 
-These are the results of our RSI backtests on the BTCUSDT pair on the most common timeframes. 
-All tests were conducted with the amount of transaction in 100$, without leverage. This is done for the convenience of your calculations, as 100$ = 100%.  
-During the testing, we used dynamic RSI parameters, they are shown in the RSI_limit column. As we can see RSI parameters have a very strong influence on the number of trades. The file also contains: 
-Maximum drawdown of a trade
-Maximum deposit drawdown 
-Maximum gain in a deal 
-Maximum deposit growth
-Remember, this is not financial advice, but as you can see, even RSI has a high winrate and can be profitable.
+- [Introduction](#introduction)
+- [Strategy Overview](#strategy-overview)
+- [Backtest Data](#backtest-data)
+  - [H4 Timeframe](#h4-timeframe)
+  - [H1 Timeframe](#h1-timeframe)
+  - [M15 Timeframe](#m15-timeframe)
+  - [M5 Timeframe](#m5-timeframe)
+  - [M3 Timeframe](#m3-timeframe)
+  - [M1 Timeframe](#m1-timeframe)
+- [Benefits and Recommendations](#benefits-and-recommendations)
+- [Summary](#summary)
 
+## Introduction
+
+The RSI (Relative Strength Index) is a widely used technical analysis tool that measures the speed and magnitude of price movements of an asset. Its primary purpose is to analyze the strength of price impulses and identify overbought or oversold levels. The RSI oscillator ranges from 0 to 100, with values above 70 indicating overbought conditions and values below 30 indicating oversold conditions. One trade means that the strategy opens only one trade and does not add margin to it. At the same time, the condition for closing this trade is the appearance of a signal in the opposite direction.
+Testing range: 01.01.2021 - 07.01.2023
+
+Keywords
+
+RSI_limit - RSI values that were tested.
+Count_deal - number of trades.
+Max_growth_deal - the indicator of the largest profit in one trade.
+Max_drawdown_deal - indicator of the largest drawdown in one trade.
+Max_growth_depo - maximum deposit growth.
+Max_ drawdown_depo - maximum drawdown of the deposit.
+Avg_profit_deal - average profit on a deal.
+Avg_loss_deal - average drawdown on a deal.
+Winrate - ratio of profitable deals to the total number of deals.
+
+## Strategy Overview
+
+The standard RSI strategy involves:
+- Opening long positions when RSI reaches 30 (oversold)
+- Opening short positions when RSI reaches 70 (overbought)
+
+This classic strategy was employed in our research, with variations in the overbought and oversold thresholds tested across different timeframes.
+All calculations are made with a margin in the deal of 100 dollars without using leverage. This is done for simplicity of your personal calculations, as 100 dollars = 100% and you can use any amount.
+## Backtest Data
+
+### H4 Timeframe
+
+The highest timeframe, H4, showed favorable results with standard RSI settings. Even with these settings, significant profits were achievable.
+
+### H1 Timeframe
+
+Meticulous analysis on the H1 timeframe revealed that the optimal RSI settings of 27/73 significantly outperformed other configurations. This specific setup maximized the winrate, making it a promising choice for traders operating within this timeframe.
+
+### M15 Timeframe
+
+The M15 timeframe reaffirmed the value of simplicity, as adhering to the standard RSI parameters produced consistent results. This shorter interval benefited from the stability provided by the traditional RSI strategy, making it a reliable option for those looking for a balanced approach.
+
+### M5 Timeframe
+
+Similar to M15, the M5 timeframe thrived when the standard RSI parameters remained unchanged. The fast-paced nature of M5 trading was effectively harnessed by the RSI strategy, underscoring its versatility across different timeframes.
+
+### M3 Timeframe
+
+In the M3 timeframe, the strategy continued to demonstrate resilience with the use of standard RSI parameters. This interval allowed traders to capitalize on shorter-term fluctuations while maintaining the strategy's overall effectiveness.
+
+### M1 Timeframe
+
+On the M1 timeframe, sticking to the standard RSI parameters proved to be a prudent choice. The rapid pace of M1 trading was navigated successfully with this approach, reinforcing the adaptability of the RSI strategy across various trading conditions.
+
+## Benefits and Recommendations
+
+The RSI strategy, with its simplicity and adaptable parameters, offers several benefits:
+- **Proven Profitability**: The strategy showcased consistent profits across a range of timeframes, attesting to its reliability.
+- **Versatility**: From longer intervals like H4 to rapid intervals like M1, the RSI strategy adapts to diverse trading scenarios.
+- **Winrate Optimization**: The H1 timeframe revealed the importance of tailored settings, optimizing the strategy's winrate.
+- **Risk Management**: The RSI's oversold and overbought levels provide valuable signals for managing risk and potential reversals.
+
+For optimal results:
+- **Customization**: Consider adjusting RSI thresholds based on timeframe and market conditions.
+- **Backtesting**: Continue backtesting with different settings to find the optimal parameters for your trading style.
+- **Risk Control**: Pair the RSI strategy with effective risk management techniques for consistent success.
+
+## Summary
+
+This comprehensive analysis underscores the potential of the RSI strategy to deliver consistent profits across diverse timeframes. Whether trading on longer intervals such as H1 or engaging in rapid-fire transactions on M1, the RSI strategy showcases its reliability and adaptability. The provided [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py) script empowers traders to harness the power of the RSI indicator and embark on a profitable journey in the cryptocurrency market.
+
+Feel free to explore the provided CSV files for a detailed breakdown of each backtest and further insights into the strategy's performance.
