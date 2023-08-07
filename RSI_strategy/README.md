@@ -58,7 +58,7 @@ The highest timeframe, H4, showed favorable results with standard RSI settings. 
 
 ### H1 Timeframe
 
-Meticulous analysis on the H1 timeframe revealed that the optimal RSI settings of <span style="background-color: #00FF00; padding: 2px 5px; border-radius: 3px;">RSI 13/87</span> significantly outperformed other configurations. This specific setup maximized the winrate, making it a promising choice for traders operating within this timeframe. Explore the [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/H1_backtest_results.csv).
+Meticulous analysis on the H1 timeframe revealed that the optimal RSI settings of <span style="background-color: #00FF00; padding: 2px 5px; border-radius: 3px;">RSI 13/87</span> significantly outperformed other configurations. This specific setup maximized the winrate, making it a promising choice for traders operating within this timeframe. Explore the [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023.csv).
 
 ### M15 Timeframe
 
