@@ -13,7 +13,7 @@ Welcome to the Readme for the Relative Strength Index (RSI) trading strategy and
   - [M5 Timeframe](#m5-timeframe)
   - [M3 Timeframe](#m3-timeframe)
   - [M1 Timeframe](#m1-timeframe)
-- [Benefits and Recommendations](#benefits-and-recommendations)
+- [Advantages and Recommendations](#Advantages-and-Recommendations)
 - [Summary](#summary)
 
 ## Introduction
@@ -76,7 +76,7 @@ On the M3 timeframe, the strategy continued to demonstrate its ineffectiveness o
 
 On the M1 timeframe we again got only minuses, unfortunately there are no profitable setups. Check out the [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023.csv).
 
-**Advantages and Recommendations**
+## Advantages and Recommendations
 
 The RSI strategy, due to its simplicity and customizable parameters, has a number of advantages:
 
