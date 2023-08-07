@@ -62,35 +62,38 @@ Meticulous analysis on the H1 timeframe revealed that the optimal RSI settings o
 
 ### M15 Timeframe
 
-The M15 timeframe reaffirmed the value of simplicity, as adhering to the standard RSI parameters produced consistent results. This shorter interval benefited from the stability provided by the traditional RSI strategy, making it a reliable option for those looking for a balanced approach. See the [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023.csv).
+M15 was not successful unfortunately all variants were unprofitable.  See the [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023.csv).
 
 ### M5 Timeframe
 
-Similar to M15, the M5 timeframe thrived when the standard RSI parameters remained unchanged. The fast-paced nature of M5 trading was effectively harnessed by the RSI strategy, underscoring its versatility across different timeframes. Check the [M5 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023.csv).
+Like the M15, the M5 timeframe has not been successful. Unfortunately RSI is not so profitable on small timeframes. [M5 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023.csv).
 
 ### M3 Timeframe
 
-In the M3 timeframe, the strategy continued to demonstrate resilience with the use of standard RSI parameters. This interval allowed traders to capitalize on shorter-term fluctuations while maintaining the strategy's overall effectiveness. Explore the [M3 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023.csv).
+On the M3 timeframe, the strategy continued to demonstrate its ineffectiveness on low TFs. Unfortunately, again only minuses. Explore the [M3 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023.csv).
 
 ### M1 Timeframe
 
-On the M1 timeframe, sticking to the standard RSI parameters proved to be a prudent choice. The rapid pace of M1 trading was navigated successfully with this approach, reinforcing the adaptability of the RSI strategy across various trading conditions. Check out the [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023.csv).
+On the M1 timeframe we again got only minuses, unfortunately there are no profitable setups. Check out the [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023.csv).
 
-## Benefits and Recommendations
+**Advantages and Recommendations**
 
-The RSI strategy, with its simplicity and adaptable parameters, offers several benefits:
-- **Proven Profitability**: The strategy showcased consistent profits across a range of timeframes, attesting to its reliability.
-- **Versatility**: From longer intervals like H4 to rapid intervals like M1, the RSI strategy adapts to diverse trading scenarios.
-- **Winrate Optimization**: The H1 timeframe revealed the importance of tailored settings, optimizing the strategy's winrate.
-- **Risk Management**: The RSI's oversold and overbought levels provide valuable signals for managing risk and potential reversals.
+The RSI strategy, due to its simplicity and customizable parameters, has a number of advantages:
+
+- **Proven profitability**: The strategy has demonstrated profits on various timeframes, which shows its reliability.
+- **Versatility**: The RSI strategy adapts to different trading scenarios, ranging from longer intervals such as H4 to fast intervals such as M1.
+- **Win Optimization**: The H1 timeframe showed the importance of individual settings that optimize a strategy's win rate.
+- **Risk Management**: RSI oversold and overbought levels are valuable signals for risk management and potential reversals.
 
 For optimal results:
-- **Customization**: Consider adjusting RSI thresholds based on timeframe and market conditions.
-- **Backtesting**: Continue backtesting with different settings to find the optimal parameters for your trading style.
-- **Risk Control**: Pair the RSI strategy with effective risk management techniques for consistent success.
+
+- **Adjustment**: Consider adjusting RSI thresholds based on timeframe and market conditions. Work on a reversal strategy and adjust Risk/Profit values.
+- **Backtesting**: Continue backtesting with different settings to find the optimal settings for your trading style.
+- **Risk Control**: Use the RSI strategy paired with effective risk management techniques to achieve consistent success.
+- **Reversion**: It is worth considering working in reverse in our estimation - reversing RSI should be profitable on all TFs.
 
 ## Summary
 
-This comprehensive analysis underscores the potential of the RSI strategy to deliver consistent profits across diverse timeframes. Whether trading on longer intervals such as H1 or engaging in rapid-fire transactions on M1, the RSI strategy showcases its reliability and adaptability. The provided [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py) script empowers traders to harness the power of the RSI indicator and embark on a profitable journey in the cryptocurrency market.
+This comprehensive analysis highlights the potential of the RSI strategy to generate consistent profits across a variety of timeframes. The provided script [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py) and the results proved that RSI can and is profitable, not on all timeframes but profitable.
 
-Feel free to explore the provided CSV files for a detailed breakdown of each backtest and further insights into the strategy's performance.
+Feel free to study the provided CSV files to analyze each backtest in detail and learn more about the strategy's performance.
