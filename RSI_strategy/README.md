@@ -24,13 +24,21 @@ Testing range: 01.01.2021 - 07.01.2023
 **Keywords**
 
 RSI_limit - RSI values that were tested.
+
 Count_deal - number of trades.
+
 Max_growth_deal - the indicator of the largest profit in one trade.
+
 Max_drawdown_deal - indicator of the largest drawdown in one trade.
+
 Max_growth_depo - maximum deposit growth.
+
 Max_ drawdown_depo - maximum drawdown of the deposit.
+
 Avg_profit_deal - average profit on a deal.
+
 Avg_loss_deal - average drawdown on a deal.
+
 Winrate - ratio of profitable deals to the total number of deals.
 
 ## Strategy Overview
