@@ -55,7 +55,7 @@ All calculations are made with a margin in the deal of 100 dollars without using
 
 ### H4 Timeframe
 
-The highest timeframe on which our backtest was conducted. It was on this timeframe that we saw one of the best results, namely +84% at RSI 80/20 settings. Check out the detailed [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv)).
+The highest timeframe on which our backtest was conducted. It was on this timeframe that we saw one of the best results, namely +84% at RSI 80/20 settings. Check out the detailed [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv).
 
 ### H1 Timeframe
 
