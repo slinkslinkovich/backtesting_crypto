@@ -63,8 +63,7 @@ The H1 also performed very well, with the settings even further away from the cl
 
 ### M30 Timeframe
 
-M30 was not as interesting as H1, but even on this timeframe I managed to find optimal settings. The settings 13/87 - they brought +19.28%.However, if you change the strategy to a reversal strategy and trade in the opposite direction of the signals - you can get +214% with an RSI configuration of 21/79. Explore the [M30 backtest results]
-(https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023.csv).
+M30 was not as interesting as H1, but even on this timeframe I managed to find optimal settings. The settings 13/87 - they brought +19.28%.However, if you change the strategy to a reversal strategy and trade in the opposite direction of the signals - you can get +214% with an RSI configuration of 21/79. Explore the [M30 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023.csv).
 
 ### M15 Timeframe
 
