@@ -55,11 +55,11 @@ All calculations are made with a margin in the deal of 100 dollars without using
 
 ### H4 Timeframe
 
-The highest timeframe on which our backtest was conducted. It was on this timeframe that we saw one of the best results, namely +84% at RSI 80/20 settings. Check out the detailed [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv).
+The highest timeframe on which our backtest was conducted. It was on this timeframe that we saw one of the best results, namely +84% at RSI 80/20 settings. Check out the detailed [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv)).
 
 ### H1 Timeframe
 
-The H1 also performed very well, with the settings even further away from the classic settings on it. Thus, at RSI 14/86 settings we managed to get +105%. Explore the [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023.csv).
+The H1 also performed very well, with the settings even further away from the classic settings on it. Thus, at RSI 14/86 settings we managed to get +105%. Explore the [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023.csv).
 
 ### M30 Timeframe
 
@@ -67,20 +67,20 @@ M30 was not as interesting as H1, but even on this timeframe I managed to find o
 
 ### M15 Timeframe
 
-M15 again shows that RSI is not always good with a standard strategy. In this case, the strategy is profitable only when trading in the opposite direction. With 15/85 settings and reverse entry system the maximum profit of +162% was achieved. See the [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023.csv).
+M15 again shows that RSI is not always good with a standard strategy. In this case, the strategy is profitable only when trading in the opposite direction. With 15/85 settings and reverse entry system the maximum profit of +162% was achieved. See the [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023.csv).
 
 ### M5 Timeframe
 
-M5 did not please with a profit, but if we had used a reverse entry, we would have been profitable even on this timeframe. The 16/84 settings and the reversal system are the key to +200% profit. [M5 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023.csv).
+M5 did not please with a profit, but if we had used a reverse entry, we would have been profitable even on this timeframe. The 16/84 settings and the reversal system are the key to +200% profit. [M5 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023.csv).
 
 ### M3 Timeframe
 
-M3 pleased us with an abundance of profitable parameters. But 16/84 and 151% profit settings are clearly our favorites. Explore the [M3 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023.csv).
+M3 pleased us with an abundance of profitable parameters. But 16/84 and 151% profit settings are clearly our favorites. Explore the [M3 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023.csv).
 
 ### M1 Timeframe
 
 M1 exceeded expectations but we'll stop at +258% and 27/73 settings. 
-This is the magic of RSI! Check out the [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023.csv).
+This is the magic of RSI! Check out the [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023.csv).
 
 ## Advantages and Recommendations
 
