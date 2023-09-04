@@ -27,9 +27,9 @@ MACDI is a modified version of the classic MACD indicator. It consists of three 
 
 ### D1 (Daily)
 - The largest timeframe used in our test.
-- Best profit: +208.67%
-- Winrate: 50%
-- Best MACD settings: 45/55/40
+- Best profit: +254.52%
+- Winrate: 47.92%
+- Best MACD settings: 45/50/5
 - [D1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_D1_One_03_01_2020-07_01_2023.csv).
 ### H4 (4-Hour)
 - The next timeframe in our study.
@@ -39,24 +39,24 @@ MACDI is a modified version of the classic MACD indicator. It consists of three 
 - [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_H4_One_03_01_2020-07_01_2023.csv).
 ### H1 (1-Hour)
 - The most interesting timeframe in our test.
-- Best profit: +344.44%
-- Winrate: 34.59%
-- Best MACD settings: 40/60/30
+- Best profit: +382.99%
+- Winrate: 34.21%
+- Best MACD settings: 20/50/10
 - [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_H1_One_03_01_2020-07_01_2023.csv).
 
 
 ### M30 (30 Minutes)
 - Opens the way to shorter timeframes.
-- Best profit: +111%
+- Best profit: +138.57%
 - Winrate: 34.79%
-- Best MACD settings: 40/60/30
+- Best MACD settings: 45/50/30
 - [M30 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M30_One_03_01_2020-07_01_2023.csv).
 
 
 ### M15 (15 Minutes)
-- Best profit: +52%
-- Winrate: 32.12%
-- Best MACD settings: 50/55/40
+- Best profit: +64.21%
+- Winrate: 35.31%
+- Best MACD settings: 10/15/15
 - [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M15_One_03_01_2020-07_01_2023.csv).
 
 
@@ -80,4 +80,4 @@ MACDI is a modified version of the classic MACD indicator. It consists of three 
 
 ## Conclusion
 
-The MACD indicator showed promising results across various timeframes, with the best results achieved on bigger timeframes such as H4,H1 and M30. These results can serve as a starting point for developing a trading strategy based on the MACD indicator. However, please remember that past performance is not indicative of future results, and it's essential to conduct thorough backtesting and risk management before implementing any trading strategy.
+The MACD indicator showed promising results across various timeframes, with the best results achieved on bigger timeframes such as H4,H1 and D1. These results can serve as a starting point for developing a trading strategy based on the MACD indicator. However, please remember that past performance is not indicative of future results, and it's essential to conduct thorough backtesting and risk management before implementing any trading strategy.
