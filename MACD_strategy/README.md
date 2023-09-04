@@ -30,43 +30,54 @@ MACDI is a modified version of the classic MACD indicator. It consists of three 
 - Best profit: +208.67%
 - Winrate: 50%
 - Best MACD settings: 45/55/40
-
+- [D1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_D1_One_03_01_2020-07_01_2023.csv).
 ### H4 (4-Hour)
 - The next timeframe in our study.
 - Best profit: +226%
 - Winrate: 35.74%
 - Best MACD settings: 25/35/35
-
+- [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_H4_One_03_01_2020-07_01_2023.csv).
 ### H1 (1-Hour)
 - The most interesting timeframe in our test.
 - Best profit: +344.44%
 - Winrate: 34.59%
 - Best MACD settings: 40/60/30
+- [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_H1_One_03_01_2020-07_01_2023.csv).
+
 
 ### M30 (30 Minutes)
 - Opens the way to shorter timeframes.
 - Best profit: +111%
 - Winrate: 34.79%
 - Best MACD settings: 40/60/30
+- [M30 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M30_One_03_01_2020-07_01_2023.csv).
+
 
 ### M15 (15 Minutes)
 - Best profit: +52%
 - Winrate: 32.12%
 - Best MACD settings: 50/55/40
+- [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M15_One_03_01_2020-07_01_2023.csv).
+
 
 ### M5 (5 Minutes)
 - Narrowed testing range, starting from May 1, 2023.
 - Best profit: +11.64%
 - Best MACD settings: 50/55/40
+- [M5 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M5_One_05_01_2023-07_01_2023.csv).
 
 ### M3 (3 Minutes)
 - Best profit: +8.81%
 - Best MACD settings: 45/50/15
+- [M3 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M3_One_05_01_2023-07_01_2023.csv).
+
 
 ### M1 (1 Minute)
 - The worst timeframe in our testing, no profit obtained.
 - Suggested use: Consider employing a reversal system.
+- [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M1_One_05_01_2023-07_01_2023.csv).
+
 
 ## Conclusion
 
-The MACD indicator showed promising results across various timeframes, with the best results achieved on bigger timeframes such as H4,H1, and M30. These results can serve as a starting point for developing a trading strategy based on the MACD indicator. However, please remember that past performance is not indicative of future results, and it's essential to conduct thorough backtesting and risk management before implementing any trading strategy.
+The MACD indicator showed promising results across various timeframes, with the best results achieved on bigger timeframes such as H4,H1 and M30. These results can serve as a starting point for developing a trading strategy based on the MACD indicator. However, please remember that past performance is not indicative of future results, and it's essential to conduct thorough backtesting and risk management before implementing any trading strategy.
