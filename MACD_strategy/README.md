@@ -30,18 +30,24 @@ MACDI is a modified version of the classic MACD indicator. It consists of three 
 - Best profit: +254.52%
 - Winrate: 47.92%
 - Best MACD settings: 45/50/5
+- Best profit with commission: 250.68%
+- Commission: 3.68%
 - [D1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_D1_One_03_01_2020-07_01_2023.csv).
 ### H4 (4-Hour)
 - The next timeframe in our study.
 - Best profit: +226%
 - Winrate: 35.74%
 - Best MACD settings: 25/35/35
+- Best profit with commission: 207.92%
+- Commission: 18.08%
 - [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_H4_One_03_01_2020-07_01_2023.csv).
 ### H1 (1-Hour)
 - The most interesting timeframe in our test.
 - Best profit: +382.99%
 - Winrate: 34.21%
 - Best MACD settings: 20/50/10
+- Best profit with commission: 258.11%
+- Commission: 124.88%
 - [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_H1_One_03_01_2020-07_01_2023.csv).
 
 
@@ -50,6 +56,8 @@ MACDI is a modified version of the classic MACD indicator. It consists of three 
 - Best profit: +138.57%
 - Winrate: 34.79%
 - Best MACD settings: 45/50/30
+- Best profit with commission: 85.18%
+- Commission: 53.52%
 - [M30 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M30_One_03_01_2020-07_01_2023.csv).
 
 
@@ -57,6 +65,8 @@ MACDI is a modified version of the classic MACD indicator. It consists of three 
 - Best profit: +64.21%
 - Winrate: 35.31%
 - Best MACD settings: 10/15/15
+- Best profit with commission: not possible 
+- Commission: 144.56%
 - [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/MACD_strategy/BTCUSDT_MACD_M15_One_03_01_2020-07_01_2023.csv).
 
 
