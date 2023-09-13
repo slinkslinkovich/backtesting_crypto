@@ -1,105 +1,105 @@
-# RSI Trading Strategy and Backtest Results
+# Стратегия торговли на основе RSI и результаты бэктестирования
 
-Welcome to the Readme for the Relative Strength Index (RSI) trading strategy and the obtained results. In this document, we'll delve into the RSI strategy and its performance analysis based on backtests carried out on different timeframes using historical data of the BTCUSDT trading pair. The strategy's implementation can be found in the provided [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py) script.
+Добро пожаловать в Readme по стратегии торговли на основе индикатора относительной силы (RSI) и полученным результатам. В этом документе мы рассмотрим стратегию RSI и анализ ее производительности на основе бэктестов, проведенных на разных временных интервалах с использованием исторических данных торговой пары BTCUSDT. Реализацию стратегии можно найти в предоставленном скрипте [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py).
 
-## Table of Contents
+## Содержание
 
-- [Introduction](#introduction)
-- [Strategy Overview](#strategy-overview)
-- [Backtest Data](#backtest-data)
-  - [H4 Timeframe](#h4-timeframe)
-  - [H1 Timeframe](#h1-timeframe)
-  - [M30 Timeframe](#m30-timeframe)
-  - [M15 Timeframe](#m15-timeframe)
-  - [M5 Timeframe](#m5-timeframe)
-  - [M3 Timeframe](#m3-timeframe)
-  - [M1 Timeframe](#m1-timeframe)
-- [Advantages and Recommendations](#Advantages-and-Recommendations)
-- [Summary](#summary)
+- [Введение](#введение)
+- [Обзор стратегии](#обзор-стратегии)
+- [Результаты](#результаты)
+  - [H4](#h4)
+  - [H1](#h1)
+  - [M30](#m30)
+  - [M15](#m15)
+  - [M5](#m5)
+  - [M3](#m3)
+  - [M1](#m1)
+- [Преимущества и рекомендации](#преимущества-и-рекомендации)
+- [Итоги](#итоги)
 
-## Introduction
+## Введение
 
-The RSI (Relative Strength Index) is a widely used technical analysis tool that measures the speed and magnitude of price movements of an asset. Its primary purpose is to analyze the strength of price impulses and identify overbought or oversold levels. The RSI oscillator ranges from 0 to 100, with values above 70 indicating overbought conditions and values below 30 indicating oversold conditions. One trade means that the strategy opens only one trade and does not add margin to it. At the same time, the condition for closing this trade is the appearance of a signal in the opposite direction.
-Testing range: 01.01.2021 - 07.01.2023
+Индикатор относительной силы (RSI) - это широко используемый инструмент технического анализа, который измеряет скорость и магнитуду движений цены актива. Его основная цель - анализировать силу импульсов цены и выявлять перекупленные или перепроданные уровни. Одна сделка означает, что стратегия открывает только одну сделку и не добавляет к ней маржу. В то же время условием закрытия этой сделки является появление сигнала в противоположном направлении.
+Диапазон тестирования: с 01.01.2021 по 07.01.2023
 
-**Keywords**
+**Ключевые слова**
 
-RSI_limit - RSI values that were tested.
+RSI_limit - значения RSI, которые были протестированы.
 
-Count_deal - number of trades.
+Count_deal - количество сделок.
 
-Max_growth_deal - the indicator of the largest profit in one trade.
+Max_growth_deal - показатель наибольшей прибыли за одну сделку.
 
-Max_drawdown_deal - indicator of the largest drawdown in one trade.
+Max_drawdown_deal - показатель наибольшей просадки за одну сделку.
 
-Max_growth_depo - maximum deposit growth.
+Max_growth_depo - максимальный рост депозита.
 
-Max_ drawdown_depo - maximum drawdown of the deposit.
+Max_drawdown_depo - максимальная просадка депозита.
 
-Avg_profit_deal - average profit on a deal.
+Avg_profit_deal - средняя прибыль от сделки.
 
-Avg_loss_deal - average drawdown on a deal.
+Avg_loss_deal - средняя просадка от сделки.
 
-Winrate - ratio of profitable deals to the total number of deals.
+Winrate - соотношение прибыльных сделок к общему количеству сделок.
 
-## Strategy Overview
+## Обзор стратегии
 
-The standard RSI strategy involves:
-- Opening long positions when RSI reaches 30 (oversold)
-- Opening short positions when RSI reaches 70 (overbought)
+Стандартная стратегия RSI включает в себя:
+- Открытие длинных позиций, когда RSI достигает 30 (перепроданности).
+- Открытие коротких позиций, когда RSI достигает 70 (перекупленности).
 
-This classic strategy was employed in our research, with variations in the overbought and oversold thresholds tested across different timeframes.
-All calculations are made with a margin in the deal of 100 dollars without using leverage. This is done for simplicity of your personal calculations, as 100 dollars = 100% and you can use any amount.
+В данном исследовании была использована классическая стратегия, с вариациями порогов перекупленности и перепроданности, протестированными на разных временных интервалах.
+Все расчеты выполнены с маржой в сделке в размере 100 долларов без использования кредитного плеча. Это сделано для упрощения ваших личных расчетов, так как 100 долларов = 100%, и вы можете использовать любую сумму.
 
-## Backtest Data
+## Результаты
 
-### H4 Timeframe
+### H4
 
-The highest timeframe on which our backtest was conducted. It was on this timeframe that we saw one of the best results, namely +84% at RSI 80/20 settings. Check out the detailed [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv).
+Наивысший временной интервал, на котором было проведено наше бэктестирование. Именно на этом временном интервале мы получили один из лучших результатов, а именно +84% при настройках RSI 80/20. Подробные результаты бэктеста на H4 можно найти здесь [H4 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_4h_One_01_01_2021-07_01_2023.csv).
 
-### H1 Timeframe
+### H1
 
-The H1 also performed very well, with the settings even further away from the classic settings on it. Thus, at RSI 14/86 settings we managed to get +105%. Explore the [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023.csv).
+H1 также показал отличные результаты, с настройками еще дальше от классических настроек. Таким образом, при настройках RSI 14/86 нам удалось получить +105%. Изучите [H1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_1h_One_01_01_2021-07_01_2023.csv).
 
-### M30 Timeframe
+### M30
 
-M30 was not as interesting as H1, but even on this timeframe I managed to find optimal settings. The settings 13/87 - they brought +19.28%.However, if you change the strategy to a reversal strategy and trade in the opposite direction of the signals - you can get +214% with an RSI configuration of 21/79. Explore the [M30 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023.csv).
+M30 был не так интересен, как H1, но даже на этом временном интервале нам удалось найти оптимальные настройки. Настройки 13/87 принесли +19.28%. Однако, если изменить стратегию на стратегию разворота и торговать в противоположном направлении сигналов, можно получить +214% при конфигурации RSI 21/79. Изучите [M30 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_30m_One_01_01_2021-07_01_2023.csv).
 
-### M15 Timeframe
+### M15
 
-M15 again shows that RSI is not always good with a standard strategy. In this case, the strategy is profitable only when trading in the opposite direction. With 15/85 settings and reverse entry system the maximum profit of +162% was achieved. See the [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023.csv).
+M15 снова показывает, что RSI не всегда хорош с классической стратегией. В этом случае стратегия прибыльна только при торговле в противоположном направлении. С настройками 15/85 и системой входа в противоположном направлении достигнута максимальная прибыль +162%. Смотрите [M15 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_15m_One_01_01_2021-07_01_2023.csv).
 
-### M5 Timeframe
+### M5
 
-M5 did not please with a profit, but if we had used a reverse entry, we would have been profitable even on this timeframe. The 16/84 settings and the reversal system are the key to +200% profit. [M5 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023.csv).
+M5 не порадовал прибылью, но если бы мы использовали вход в противоположном направлении, даже на этом временном интервале мы были бы прибыльными. Настройки 16/84 и система разворота - ключ к прибыли +200%. [M5 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_5m_One_01_01_2021-07_01_2023.csv).
 
-### M3 Timeframe
+###  M3
 
-M3 pleased us with an abundance of profitable parameters. But 16/84 and 151% profit settings are clearly our favorites. Explore the [M3 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023.csv).
+M3 порадовал нас множеством прибыльных параметров. Но настройки 16/84 и прибыль 151% - явно наши фавориты. Изучите [M3 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_3m_One_01_01_2021-07_01_2023.csv).
 
-### M1 Timeframe
+###  M1
 
-M1 exceeded expectations but we'll stop at +258% and 27/73 settings. 
-This is the magic of RSI! Check out the [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023.csv).
+M1 превзошел ожидания, но мы остановимся на +258% и настройках 27/73. 
+В этом волшебство RSI! Ознакомьтесь с [M1 backtest results](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023%20-%20BTCUSDT_RSI_1m_One_01_01_2021-07_01_2023.csv).
 
-## Advantages and Recommendations
+## Преимущества и рекомендации
 
-The RSI strategy, due to its simplicity and customizable parameters, has a number of advantages:
+Стратегия RSI, благодаря своей простоте и настраиваемым параметрам, имеет ряд преимуществ:
 
-- **Proven profitability**: The strategy has demonstrated profits on various timeframes, which shows its reliability.
-- **Versatility**: The RSI strategy adapts to different trading scenarios, ranging from longer intervals such as H4 to fast intervals such as M1.
-- **Win Optimization**: The H1 timeframe showed the importance of individual settings that optimize a strategy's win rate.
-- **Risk Management**: RSI oversold and overbought levels are valuable signals for risk management and potential reversals.
+- **Подтвержденная прибыльность**: Стратегия продемонстрировала прибыльность на разных временных интервалах, что показывает ее надежность.
+- **Универсальность**: Стратегия RSI адаптируется к различным сценариям торговли, начиная от более длительных интервалов, таких как H4, и заканчивая быстрыми интервалами, такими как M1.
+- **Оптимизация выигрышей**: Временной интервал H1 показал важность индивидуальных настроек, которые оптимизируют процент выигрышных сделок.
+- **Управление рисками**: Уровни перекупленности и перепроданности RSI являются ценными сигналами для управления рисками и потенциальных разворотов.
 
-For optimal results:
+Для достижения оптимальных результатов, мы можем посоветовать следующее:
 
-- **Adjustment**: Consider adjusting RSI thresholds based on timeframe and market conditions. Work on a reversal strategy and adjust Risk/Profit values.
-- **Backtesting**: Continue backtesting with different settings to find the optimal settings for your trading style.
-- **Risk Control**: Use the RSI strategy paired with effective risk management techniques to achieve consistent success.
-- **Reversion**: It is worth considering working in reverse in our estimation - reversing RSI should be profitable on all TFs.
+- **Настройка**: Рассмотрите возможность настройки порогов RSI в зависимости от временного интервала и рыночных условий. Работайте над стратегией разворота и настройте значения Риск/Прибыль.
+- **Бэктестирование**: Продолжайте бэктестирование с разными настройками, чтобы найти оптимальные параметры для вашего стиля торговли.
+- **Управление рисками**: Используйте стратегию RSI в сочетании с эффективными методами управления рисками для достижения стабильного успеха.
+- **Реверсия**: Стоит рассмотреть возможность работы в обратном направлении - реверсирование RSI должно быть прибыльным на всех временных интервалах.
 
-## Summary
+## Итоги
 
-This comprehensive analysis highlights the potential of the RSI strategy to generate consistent profits across a variety of timeframes. The provided script [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py) and the results proved that RSI can and is profitable, not on all timeframes but profitable.
+Этот комплексный анализ подчеркивает потенциал стратегии RSI для генерации стабильной прибыли на различных временных интервалах. Предоставленный скрипт [rsi.py](https://github.com/slinkslinkovich/backtesting_crypto/blob/main/RSI_strategy/rsi.py) и результаты показали, что RSI может быть прибыльным, хотя и не на всех временных интервалах.
 
-Feel free to study the provided CSV files to analyze each backtest in detail and learn more about the strategy's performance.
+Не стесняйтесь изучать предоставленные CSV-файлы, чтобы детально проанализировать каждый бэктест и узнать больше о производительности стратегии.
