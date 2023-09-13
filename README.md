@@ -1,45 +1,45 @@
 # Backtesting Crypto
 
-Welcome to the Backtesting Crypto project! In this repository, we explore the exciting world of cryptocurrency trading by developing and testing various trading strategies. Whether you're an experienced trader or a beginner looking to dive into crypto markets, this project aims to provide valuable insights and tools for your trading journey.
+Добро пожаловать в проект Backtesting Crypto! В этом репозитории мы исследуем захватывающий мир торговли криптовалютами, разрабатывая и тестируя различные торговые стратегии. Независимо от того, являетесь ли вы опытным трейдером или начинающим, который хочет погрузиться в мир криптовалютных рынков, этот проект направлен на предоставление ценных исследований и инструментов для вашего торгового пути.
 
-## Table of Contents
+## Содержание
 
-- [Introduction](#introduction)
-- [Project Goals](#project-goals)
-- [Strategy Development](#strategy-development)
-- [Backtesting Framework](#backtesting-framework)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- [Введение](#introduction)
+- [Цели проекта](#project-goals)
+- [Разработка стратегий](#strategy-development)
+- [Фреймворк для бэктестинга](#backtesting-framework)
+- [Участие](#contributing)
+- [Контакты](#contact)
 
-## Introduction
+## Введение
 
-Cryptocurrency trading offers unique opportunities and challenges. This project seeks to leverage data-driven approaches to develop, refine, and test trading strategies that can adapt to the dynamic nature of crypto markets. By combining technical analysis, quantitative methods, and thoughtful risk management, we aim to enhance the trading experience and outcomes for all participants.
+Торговля криптовалютами предоставляет уникальные возможности и вызовы. Этот проект стремится использовать подходы, основанные на данных, для разработки, совершенствования и тестирования торговых стратегий, которые могут адаптироваться к динамике криптовалютных рынков. Совмещая технический анализ, количественные методы и тщательное управление рисками, мы стремимся улучшить опыт и результаты торговли для всех участников.
 
-## Project Goals
+## Цели проекта
 
-- **Strategy Development**: Collaboratively create, refine, and optimize trading strategies for different cryptocurrency pairs and timeframes.
-- **Backtesting and Analysis**: Develop a robust backtesting framework to assess the performance of trading strategies using historical data.
-- **Educational Resources**: Provide educational content and resources on trading principles, technical analysis, risk management, and strategy development.
-- **Community Engagement**: Foster a community of traders and developers to share insights, experiences, and strategies.
+- **Разработка стратегий**: Совместно создавать, совершенствовать и оптимизировать торговые стратегии для различных пар криптовалют и временных интервалов.
+- **Бэктестинг и анализ**: Разработать надежный фреймворк для бэктестирования, чтобы оценивать производительность торговых стратегий с использованием исторических данных.
+- **Образовательные ресурсы**: Предоставлять образовательный контент и ресурсы по принципам торговли, техническому анализу, управлению рисками и разработке стратегий.
+- **Вовлечение сообщества**: Содействовать формированию сообщества трейдеров и разработчиков для обмена мнениями, опытом и стратегиями.
 
-## Strategy Development
+## Разработка стратегий
 
-The heart of this project lies in crafting effective trading strategies. Strategies can range from simple moving average crossovers to more complex machine learning models. We encourage contributors to propose, discuss, and collaborate on strategies by opening issues and pull requests.
+Суть этого проекта заключается в разработке эффективных торговых стратегий. Стратегии могут варьироваться от простых пересечений скользящих средних до более сложных моделей машинного обучения. Мы призываем участников предлагать, обсуждать и сотрудничать над стратегиями, открывая задачи и запросы на включение.
 
-## Backtesting Framework
+## Фреймворк для бэктестинга
 
-To evaluate the viability of trading strategies, we're building a flexible backtesting framework. The framework will allow us to simulate trades using historical price data and assess factors like profitability, risk, and drawdown. Feel free to contribute to the development of this crucial tool.
+Для оценки жизнеспособности торговых стратегий мы разрабатываем гибкий фреймворк для бэктестирования. Этот фреймворк позволит нам моделировать сделки с использованием исторических данных о ценах и оценивать такие факторы, как прибыльность, риск и просадки. Не стесняйтесь вносить свой вклад в развитие этого важного инструмента.
 
-## Contributing
+## Участие
 
-Contributions to this project are greatly appreciated! Whether you're a seasoned trader, a developer with a passion for data analysis, or a newcomer eager to learn, there's a place for you here. Contact us for more information on how to get involved.
+Любые вклады в этот проект очень ценятся! Независимо от того, являетесь ли вы опытным трейдером, разработчиком с интересом к анализу данных или новичком, желающим учиться, здесь есть место и для вас. Свяжитесь с нами, чтобы получить дополнительную информацию о том, как принять участие.
 
-## Contact
+## Контакты
 
-If you have any questions, suggestions, or just want to connect with fellow traders and developers, you can reach us through the following channels:
+Если у вас есть вопросы, предложения или вы просто хотите связаться с коллегами трейдерами и разработчиками, вы можете связаться с нами через следующие каналы:
 
-- Email: [slinkslinkovich@yahoo.com](mailto:slinkslinkovich@yahoo.com)
-- Telegram: [@backtesting_crypto](https://t.me/backtesting_crypto)
+- Электронная почта: [slinkslinkovich@yahoo.com](mailto:slinkslinkovich@yahoo.com)
+- Телеграм: [@backtesting_crypto](https://t.me/backtesting_crypto)
 
-Let's work together to unlock the potential of cryptocurrency trading strategies and elevate our trading experience!
+Давайте работать вместе, чтобы раскрыть потенциал стратегий торговли криптовалютами и повысить качество нашего торгового опыта!
 
