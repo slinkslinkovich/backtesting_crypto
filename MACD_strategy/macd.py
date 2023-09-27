@@ -7,7 +7,7 @@ sys.setrecursionlimit(99999)
 
 start_time = "2020-01-01"
 end_time = "2024-07-03"
-symbol = "BTCUSDT" # Пара по которой тяним данные
+symbol = "BTCUSDT" # Пара по которой тянем данные
 interval = "1h" # Интервал
 spot = False # True если брать спотовый график и False если фючерсный
 allocated_amount = 100 # $$$$$
@@ -15,7 +15,7 @@ comis = 0.04
 not_use_stop_take = True # Не используем стопы и тейки
 stop_loss = -100 # Стоплос на будущее
 take_profit = 100 # Тейкпрофит на будущее
-reverse = False # пока не реализовал
+reverse = False # реверсивная система
 
 
 # Настройки MCAD
